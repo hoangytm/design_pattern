@@ -1,7 +1,7 @@
 package decorator.department_assignment;
 
 public abstract class DecoratorEmployee implements IEmployee {
-    private IEmployee iEmployee;
+    private final IEmployee iEmployee;
 
     public DecoratorEmployee(IEmployee iEmployee) {
         this.iEmployee = iEmployee;

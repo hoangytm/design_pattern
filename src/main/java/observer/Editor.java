@@ -2,8 +2,8 @@ package observer;
 
 import java.io.File;
 
-public class Editor {
-    public EventManager events;
+public class Editor { // the main object
+    public EventManager events;// chưa tất cả tác nhân
     private File file;
 
     public Editor() {

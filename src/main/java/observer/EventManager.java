@@ -1,7 +1,10 @@
 package observer;
 
 import java.io.File;
-import java.util.*;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 
 public class EventManager {
     Map<String, List<EventListener>> listeners = new HashMap<>();
@@ -28,4 +31,5 @@ public class EventManager {
             listener.update(eventType, file);
         }
     }
+
 }
